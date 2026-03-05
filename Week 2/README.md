@@ -52,3 +52,25 @@ Why It Was Critical:
 Remote code execution without authentication,Public exploit code available,Mass exploitation globally,Impact on production servers and cloud infrastructure
 Due to its high severity and active exploitation, organizations were required to patch systems immediately. SOC teams worldwide classified Log4Shell alerts as Critical priority because of its potential to cause full system compromise and data breaches.
 This case demonstrates how CVSS score, exploit availability, and business impact collectively determine alert priority levels.
+
+6. Mock Alert Prioritization
+To understand alert prioritization practically, the following simulated alerts were analyzed and assigned severity levels based on CVSS score, asset criticality,
+exploit likelihood, and business impact.
+| Alert ID | Alert Type                      | CVSS Score | Asset Affected    | Business Impact            | Assigned Priority |
+| -------- | ------------------------------- | ---------- | ----------------- | -------------------------- | ----------------- |
+| 001      | Phishing Email                  | 7.5        | Employee Laptop   | Credential Theft Risk      | High              |
+| 002      | Log4Shell Exploit Attempt       | 9.8        | Production Server | Remote Code Execution      | Critical          |
+| 003      | Port Scan                       | 3.2        | Test VM           | Minimal Impact             | Low               |
+| 004      | Multiple Failed Admin Logins    | 8.2        | Domain Controller | Privilege Compromise       | High              |
+| 005      | Suspicious PowerShell Execution | 6.8        | HR Workstation    | Possible Malware Execution | Medium            |
+
+7. Escalation Procedure Example
+When a critical alert is detected, it must be escalated immediately to Tier 2 analysts or the incident response team.
+Example escalation email:
+Subject: [Critical] Log4Shell Exploit Attempt Detected
+Dear Tier 2 Team,
+A critical severity alert has been generated indicating a Log4Shell exploitation attempt on the production application server (192.168.1.15). The vulnerability carries a CVSS score of 9.8 and allows remote code execution without authentication.
+Initial logs show suspicious outbound connections suggesting possible payload execution. The affected server hosts sensitive customer transaction data, increasing business risk.
+Immediate investigation and containment actions are recommended.
+Regards
+SOC Analyst
