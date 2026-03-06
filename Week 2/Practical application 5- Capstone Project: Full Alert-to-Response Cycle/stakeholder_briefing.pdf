@@ -1,0 +1,3 @@
+## Stakeholder Briefing 
+
+A simulated security incident was conducted to evaluate the organization's cyber defense capabilities. During the test, an attacker exploited a known vulnerability in an outdated FTP service. The security monitoring system (Wazuh) successfully detected the suspicious activity and generated alerts. The security team investigated the alert and confirmed the exploitation attempt. Immediate response actions were taken, including isolating the affected system and blocking the attacker’s IP address using CrowdSec. The attack was successfully contained, and no further compromise occurred. The exercise highlights the importance of continuous monitoring, timely patch management, and strong incident response procedures to protect organizational systems.
