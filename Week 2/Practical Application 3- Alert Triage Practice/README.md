@@ -10,3 +10,11 @@ The source IP address 192.168.1.100 was analyzed using threat intelligence platf
 
 ## IOC Validation Screenshot
 ![IOC Validation](ioc_validation.png)
+
+## Threat Intelligence Validation
+
+The IP address 192.168.1.100 was checked using AlienVault OTX to determine whether it is associated with known malicious activity.
+
+The platform returned threat intelligence pulses related to SSH brute-force attempts and web scanning activity. Since the IP belongs to a private network range, the alert likely represents simulated activity in a controlled lab environment.
+
+![OTX Validation](alienvault_otx_ip_lookup.png)
