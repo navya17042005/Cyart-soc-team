@@ -1,0 +1,3 @@
+## Threat Hunting Report
+
+Threat hunting was conducted to identify potential misuse of valid accounts associated with MITRE ATT&CK technique T1078. Elastic Security logs were analyzed using Event ID 4672 to detect privilege escalation events. A suspicious event involving unexpected administrative access was identified. Threat intelligence from AlienVault OTX was used to validate potential indicators. Additionally, endpoint processes were examined using Velociraptor to identify abnormal activity. The findings suggest possible unauthorized privilege escalation, highlighting the importance of monitoring privileged account usage and strengthening access control mechanisms.
