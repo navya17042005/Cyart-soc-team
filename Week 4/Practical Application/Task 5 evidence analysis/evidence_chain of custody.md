@@ -23,3 +23,6 @@ To analyze network connections and maintain chain-of-custody for digital evidenc
 - Digital Forensics
 - Incident Analysis
 - Evidence Documentation
+
+
+ |Network Evidence | Velociraptor Netstat Output | SOC Analyst | 2026-03-20 |  273A64247C3E872E |
