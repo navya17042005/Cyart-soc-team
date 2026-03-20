@@ -1,0 +1,2 @@
+ClientId,Hostname,FlowId,StartedTime,State,Duration,TotalBytes,TotalRows
+C.6cc3aa355e7907b7,windows-soc-vm,F.D6SK5V01S96U8.H,2026-03-17T12:05:28Z,FINISHED,12,0,84
