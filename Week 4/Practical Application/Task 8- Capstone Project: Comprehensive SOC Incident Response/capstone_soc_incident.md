@@ -1,12 +1,12 @@
 # Capstone Project: Comprehensive SOC Incident Response
 
 ## Tools Used
-- Metasploit (simulated)
+- Metasploit 
 - Wazuh
-- CrowdSec (simulated)
-- TheHive (simulated)
-- MITRE Caldera (conceptual)
-- Elastic Security (conceptual)
+- CrowdSec 
+- TheHive 
+- MITRE Caldera 
+- Elastic Security 
 
 ---
 
